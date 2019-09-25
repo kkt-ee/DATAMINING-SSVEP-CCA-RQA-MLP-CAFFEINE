@@ -1,0 +1,50 @@
+%% make load var name
+% The mat files are stored by names:
+%       sig1HzRQAstatistics.mat
+%       sig5HzRQAstatistics.mat
+%       sig10HzRQAstatistics.mat
+%       sig15HzRQAstatistics.mat
+%       sig20HzRQAstatistics.mat
+%       sig25HzRQAstatistics.mat
+%       sig30HzRQAstatistics.mat
+% Now next:
+%     0. generate .mat filename
+%     1. load a .mat file 
+%     2. add a Montage column in the loaded variable RQA statistics
+%                column1: MONTAGES    column2:data
+%     3. CreateTable
+
+clear all
+%% 0.
+%signame='resultsigv
+phf={'1' '5' '10' '15' '20' '25' '30'};
+matfilepath='/mnt/pd/RGFT/resultsigv2d1A/vars/';
+strpart1='sig';
+strpart3='HzRQAstatistics.mat';
+%%
+for i=1:7
+    strpart2=phf{i};
+    matfile=strcat(strpart1,strpart2,strpart3);
+    matfile=fullfile(matfilepath,matfile);
+    
+    %% 1.
+    MONTAGES={'PG1' 'FP1' 'F7' 'F3' 'T3' 'C3' 'T5' 'P3' 'O1' 'FZ' 'CZ' 'PZ' 'OZ' 'PG2' 'FP2' 'F8' 'F4' 'T4' 'C4' 'T6' 'P4' 'O2' 'ECG'};
+    %load /mnt/pd/RGFT/resultsigv2d1A/vars/sig1HzRQAstatistics.mat
+    load(matfile)
+    clearvars matfile
+    %% 2.
+    RQAstatistics(:,2)=RQAstatistics;
+    RQAstatistics(:,1)=MONTAGES'
+
+    %% '/mnt/pd/RGFT/TableRQA' + 1 + 'Hz' + v2d1A + '.csv'
+    tabstrpart1= '/mnt/pd/RGFT/TableRQA';
+    tabstrpart2= strpart2;
+    tabstrpart3= 'Hz';
+    tabstrpart4= v2d1A;   %signame 
+    tabstrpart5= '.csv';
+    
+    
+    Tablefilename = '/mnt/pd/RGFT/TableRQA1Hzv2d1A.csv';
+    
+    Tnew=CreateTable(RQAstatistics);                   % fUNCTION CALL : CreateTable()
+    writetable(Tnew,Tablefilename);                    % Writing table to file 'Tablefilename'
