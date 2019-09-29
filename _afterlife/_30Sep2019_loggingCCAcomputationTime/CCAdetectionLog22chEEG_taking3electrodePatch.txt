@@ -1,0 +1,52 @@
+START
+generating log using 'diary'...
+  Name            Size                  Bytes  Class     Attributes
+
+  Fs              1x1                       8  double              
+  N               1x1                       8  double              
+  TW              1x20                    160  double              
+  TW_p            1x20                    160  double              
+  X4D            22x1               113543584  cell                
+  figheader       1x40                     80  char                
+  n_correct       2x20                    320  double              
+  n_sti           1x1                       8  double              
+  ref1            4x5120               163840  double              
+  ref2            4x5120               163840  double              
+  ref3            4x5120               163840  double              
+  ref4            4x5120               163840  double              
+  ref5            4x5120               163840  double              
+  ref6            4x5120               163840  double              
+  ref7            4x5120               163840  double              
+  sti_f           1x7                      56  double              
+  t_length        1x1                       8  double              
+  vnos            1x1                       8  double              
+
+
+X4D =
+
+  22×1 cell array
+
+    [3×5120×6×7 double]
+    [3×5120×6×7 double]
+    [3×5120×6×7 double]
+    [3×5120×6×7 double]
+    [3×5120×6×7 double]
+    [3×5120×6×7 double]
+    [3×5120×6×7 double]
+    [3×5120×6×7 double]
+    [3×5120×6×7 double]
+    [3×5120×6×7 double]
+    [3×5120×6×7 double]
+    [3×5120×6×7 double]
+    [3×5120×6×7 double]
+    [3×5120×6×7 double]
+    [3×5120×6×7 double]
+    [3×5120×6×7 double]
+    [3×5120×6×7 double]
+    [3×5120×6×7 double]
+    [3×5120×6×7 double]
+    [3×5120×6×7 double]
+    [3×5120×6×7 double]
+    [3×5120×6×7 double]
+
+[ch=1] [ch=2] [ch=3] [ch=4] [ch=5] [ch=6] [ch=7] [ch=8] [ch=9] [ch=10] [ch=11] [ch=12] [ch=13] [ch=14] [ch=15] [ch=16] [ch=17] [ch=18] [ch=19] [ch=20] [ch=21] [ch=22] Elapsed time is 101.000429 seconds.

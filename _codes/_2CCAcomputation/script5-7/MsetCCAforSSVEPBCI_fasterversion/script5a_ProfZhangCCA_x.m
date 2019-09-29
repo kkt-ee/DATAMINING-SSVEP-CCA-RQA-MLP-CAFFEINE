@@ -6,7 +6,8 @@ clc
 %close all
 %clear all
 %load('/mnt/pd/newvar6s/Xd1A1-18.mat')
-load('/mnt/pd/vars/_Xd1B1-6newconfigRAW.mat') % <<------enter X from script 4
+%load('/mnt/pd/vars/_Xd1B1-6newconfigRAW.mat') % <<------enter X from script 4
+load('/root/_HONEYsave/_workfinish/KISHORE-mtechPD_28May2019_ALLData/vars/dir3_ccaXvariate/BX.mat')
 X4D=X; %clearvars -except X4D
 whos
 %% 3.2.1. Initialize parameters
@@ -60,7 +61,7 @@ for k=1:22 % => 4D data of 22Channels                                           
         for tw_length=1:1:t_length %:4 *      % time window length:  1s:1s:4s                            % 1:timeWindow(in sec)
             %dispflag=0;       % flag<+>
             %fprintf('Channel %d CCA Processing... TW %fs, No.crossvalidation %d \n',k,TW(tw_length),run);
-            for j=1:7 %:4 *                                                                             % 7Photic stimulus
+            for j=1%:7 %:4 *                                                                             % 7Photic stimulus
                 [wx1,wy1,r1]=cca(SSVEPdata(:,1:TW_p(tw_length),run,j),ref1(:,1:TW_p(tw_length)));
                 [wx2,wy2,r2]=cca(SSVEPdata(:,1:TW_p(tw_length),run,j),ref2(:,1:TW_p(tw_length)));
                 [wx3,wy3,r3]=cca(SSVEPdata(:,1:TW_p(tw_length),run,j),ref3(:,1:TW_p(tw_length)));
