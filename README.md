@@ -1,6 +1,6 @@
-# SSVEP_CCA_RQA_CAFFEINE 
+# DATAMINING-SSVEP-CCA-RQA-CAFFEINE 
 
-The archived codes are of my Masters of Technology Thesis research work titled, "Data mining based approach to study the effect of caffeinated coffee on SSVEP brain signals" Please refer to https://doi.org/10.1016/j.compbiomed.2019.103526 for reviewing my complete work.
+The archived codes are of my Masters of Technology Thesis research work titled, "Data mining based approach to study the effect of caffeinated coffee on SSVEP brain signals" Please refer to https://doi.org/10.1016/j.compbiomed.2019.103526 to review my complete work.
 
 -------
 GLOSSARY
