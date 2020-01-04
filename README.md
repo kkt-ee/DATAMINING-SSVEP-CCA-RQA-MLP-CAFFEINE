@@ -1,6 +1,10 @@
 # SSVEP_CCA_RQA_CAFFEINE 
 
-The codes are part of my Masters of Technology Thesis research work "Data mining based approach to study the effect of caffeinated coffee on SSVEP brain signals https://doi.org/10.1016/j.compbiomed.2019.103526"
+The archived codes are of my Masters of Technology Thesis research work titled, "Data mining based approach to study the effect of caffeinated coffee on SSVEP brain signals" Please refer to https://doi.org/10.1016/j.compbiomed.2019.103526 for reviewing my complete work.
+
+-------
+GLOSSARY
+-------
 
 SSVEP: Steady state visual evoked potentials (observed in EEG recordings with photic stimulus)
 
