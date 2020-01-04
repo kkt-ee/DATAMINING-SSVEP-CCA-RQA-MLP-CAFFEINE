@@ -25,3 +25,7 @@ DATASET: 22 x 5120 x 6 x 7 (array)
   6: Number of volunteers
   
   7: Number of differnt photic stimulus used to capture SSVEP signals
+  
+------
+
+SSVEPs are a special type of biosignal used in Rehabilitation Engineering for remote actuation of switches. The purpose of this study is to check the effects of caffeine consumption on these signals to verify an alternate hypothesis that, "Caffeine enhances the SSVEP activations". This is indeed found to be true from the results but mostly the enhancement was for high frequency SSVEPs (greater than 30 Hz).  
