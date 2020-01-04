@@ -10,6 +10,7 @@ RQA: Recurrence quantification analysis
 
 Caffeine: Data mining carried out with caffeinated and non-caffeinated SSVEP signals of 7 different frequencies.
 
+-------
 
 Dataset: 22 x 5120 x 6 x 7 (array)
 
