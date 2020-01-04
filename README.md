@@ -1,4 +1,4 @@
-# DATAMINING-SSVEP-CCA-RQA-CAFFEINE 
+# DATAMINING-SSVEP-CCA-RQA-MLP-CAFFEINE 
 
 The archived codes are of my Masters of Technology Thesis research work titled, "Data mining based approach to study the effect of caffeinated coffee on SSVEP brain signals" Please refer to https://doi.org/10.1016/j.compbiomed.2019.103526 to review the complete work.
 
@@ -11,6 +11,8 @@ SSVEP: Steady state visual evoked potentials (observed in EEG recordings with ph
 CCA: Canonical correlation analysis
 
 RQA: Recurrence quantification analysis
+
+MLP: Multilayer perceptron network (ANN)
 
 CAFFEINE: Data mining carried out with caffeinated and non-caffeinated SSVEP signals of 7 different frequencies.
 
