@@ -10,8 +10,13 @@ RQA: Recurrence quantification analysis
 
 Caffeine: Data mining carried out with caffeinated and non-caffeinated SSVEP signals of 7 different frequencies.
 
+
 Dataset: 22 x 5120 x 6 x 7 (array)
+
   22: Number of EEG channels
+  
   5120: Number of sample points in each EEG channel
+  
   6: Number of volunteers
+  
   7: Number of differnt photic stimulus used to capture SSVEP signals
