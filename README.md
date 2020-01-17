@@ -8,7 +8,7 @@ GLOSSARY
 
 SSVEP: Steady state visual evoked potentials (observed in EEG recordings with photic stimulus)
 
-CCA: Canonical correlation analysis
+CCA: Canonical correlation analysis (https://youtu.be/rZoKH4fT-FE)
 
 RQA: Recurrence quantification analysis
 
