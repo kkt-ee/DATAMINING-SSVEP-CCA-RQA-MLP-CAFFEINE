@@ -1,6 +1,6 @@
 # DATAMINING-SSVEP-CCA-RQA-MLP-CAFFEINE 
 
-The archived codes are of my Masters of Technology Thesis research work titled, "Data mining based approach to study the effect of consumption of caffeinated coffee on the generation of the steady-state visual evoked potential signals". Please refer to the following articles to audit the complete work:
+These are the complete archived MATLAB codes of my Masters of Technology Thesis titled, "Data mining-based approach to study the effect of consumption of caffeinated coffee on the generation of the steady-state visual evoked potential signals". Please refer to the following articles to audit the complete work:
 
 [1] Main article:  https://doi.org/10.1016/j.compbiomed.2019.103526
 My complete thesis.
